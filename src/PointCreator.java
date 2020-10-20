@@ -10,7 +10,6 @@ public class PointCreator {
         System.out.println("Podaj punkt Y: ");
         int y = scanner.nextInt();
 
-        Point point = new Point(x, y);
-        return point;
+        return new Point(x, y);
     }
 }
